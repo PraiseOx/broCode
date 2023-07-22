@@ -35,3 +35,5 @@ for quote, author in zip(quotes, authors):
      print(quote.text + "_" + author.text)
      writer.writerow([quote.text, author.text])
 file.close
+
+#Youtube tutorial Github link - https://github.com/gigafide/basic_python_scraping/
